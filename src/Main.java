@@ -14,7 +14,7 @@ public class Main
             itemChoice = displayMenu(in, itemList);
             switch (itemChoice)
             {
-               // starting a case for user to choose
+               // starting a case for user to choose A= Add D= Delete P= Print Q= Quit
                 case "A":
                     addItem(in, itemList); 
                     break;
